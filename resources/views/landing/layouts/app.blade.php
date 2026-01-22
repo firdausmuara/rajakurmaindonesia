@@ -7,7 +7,7 @@
     <meta name="description" content="@yield('meta_description', 'Raja Kurma Indonesia - Kurma Berkualitas Tinggi')">
     
     <!-- Favicons -->
-    <link href="{{ url('landing/assets/img/favicon.png') }}" rel="icon">
+    <link href="{{ url('landing/assets/img/logomerah.png') }}" rel="icon">
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
