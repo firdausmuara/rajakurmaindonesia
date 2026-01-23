@@ -44,7 +44,7 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-                <img src="{{ asset('landing/assets/img/about.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('landing/assets/img/logomerah.png') }}" style="width: 50%; height: auto;" class="img-fluid" alt="">
             </div>
             
             <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
@@ -56,7 +56,7 @@
                     <li><i class="bi bi-check-circle"></i> <span>Harga terjangkau dengan berbagai pilihan paket</span></li>
                     <li><i class="bi bi-check-circle"></i> <span>Pengiriman cepat ke seluruh Indonesia</span></li>
                 </ul>
-                <a href="{{ route('produk') }}" class="read-more"><span>Lihat Produk</span><i class="bi bi-arrow-right"></i></a>
+                <a href="https://linktr.ee/rajakurmaindo" target="_blank" class="read-more"><span>Belanja Sekarang</span><i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </div>
