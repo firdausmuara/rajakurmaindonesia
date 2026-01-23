@@ -9,9 +9,10 @@
             <ul>
                 <li><a href="{{ route('home') }}#hero" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a></li>
                 <li><a href="{{ route('home') }}#about">Tentang</a></li>
-                <li><a href="{{ route('home') }}#services">Services</a></li>
+                <!-- <li><a href="{{ route('home') }}#services">Services</a></li> -->
+                <li><a href="{{ route('home') }}#produk">Produk</a></li>
                 <li><a href="{{ route('home') }}#portfolio">Portfolio</a></li>
-                <li><a href="{{ route('home') }}#team">Team</a></li>
+                <!-- <li><a href="{{ route('home') }}#team">Team</a></li> -->
                 <!-- <li><a href="{{ route('produk') }}" class="{{ request()->routeIs('produk*') ? 'active' : '' }}">Produk</a></li>
                 <li><a href="{{ route('berita') }}" class="{{ request()->routeIs('berita*') ? 'active' : '' }}">Berita</a></li> -->
                 <li><a href="{{ route('home') }}#contact">Kontak</a></li>

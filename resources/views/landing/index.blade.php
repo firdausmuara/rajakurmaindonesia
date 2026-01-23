@@ -11,7 +11,7 @@
             <div class="carousel-container">
                 <h2>Selamat Datang di Raja Kurma Indonesia</h2>
                 <p>Menyediakan kurma berkualitas tinggi dari berbagai negara. Kepercayaan dan kualitas adalah prioritas kami.</p>
-                <a href="{{ route('produk') }}" class="btn-get-started">Lihat Produk</a>
+                <a href="{{ route('home') }}#produk" class="btn-get-started">Lihat Produk</a>
             </div>
         </div>
         
@@ -20,7 +20,7 @@
             <div class="carousel-container">
                 <h2>Kurma Premium Pilihan</h2>
                 <p>Koleksi lengkap kurma Ajwa, Medjool, Sukari, dan berbagai jenis kurma berkualitas lainnya.</p>
-                <a href="{{ route('produk') }}" class="btn-get-started">Belanja Sekarang</a>
+                <a href="https://linktr.ee/rajakurmaindo" target="_blank" class="btn-get-started">Belanja Sekarang</a>
             </div>
         </div>
         
@@ -62,53 +62,8 @@
     </div>
 </section>
 
-<!-- Stats Section -->
-<section id="stats" class="stats section light-background">
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-        <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
-            </div>
-        </div><!-- End Stats Item -->
-
-        <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
-            </div>
-        </div><!-- End Stats Item -->
-
-        <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-            </div>
-        </div><!-- End Stats Item -->
-
-        <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-            <i class="bi bi-people"></i>
-            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-            <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-            </div>
-        </div><!-- End Stats Item -->
-
-        </div>
-
-    </div>
-
-</section><!-- /Stats Section -->
-
 <!-- Produk Section -->
-<section id="services" class="services section light-background">
+<!-- <section id="services" class="services section light-background">
     <div class="container section-title" data-aos="fade-up">
         <h2>Produk Kami</h2>
         <p>Berbagai pilihan kurma berkualitas untuk Anda</p>
@@ -134,7 +89,7 @@
             <a href="{{ route('produk') }}" class="btn btn-primary">Lihat Semua Produk</a>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Call To Action Section -->
 <section id="call-to-action" class="call-to-action section dark-background">
@@ -145,9 +100,9 @@
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
         <div class="col-xl-10">
             <div class="text-center">
-            <h3>Call To Action</h3>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="cta-btn" href="#">Call To Action</a>
+            <h3>Temukan Produk Kurma Terbaik</h3>
+            <p>Kami menyediakan berbagai pilihan kurma berkualitas tinggi untuk Anda.</p>
+            <a class="cta-btn" href="#produk">Lihat Produk</a>
             </div>
         </div>
         </div>
@@ -160,8 +115,8 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>More Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Supplier Bisnis Kurma</h2>
+        <p>Cocok jadi Supplier Bisnis Kurma Anda</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -171,24 +126,24 @@
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
             <img src="{{ asset('landing/assets/img/more-service-1.jpg') }}" class="img-fluid" alt="">
-            <h3>Ad cupiditate sed est odio</h3>
-            <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+            <h3>Stok Kurma Premium dan varian yang melimpah</h3>
+            <p>Raja Kurma menyediakan berbagai jenis kurma premium dengan ketersediaan stok yang stabil dan berkelanjutan</p>
             </div>
         </div><!-- End Card Item -->
 
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
             <img src="{{ asset('landing/assets/img/more-service-2.jpg') }}" class="img-fluid" alt="">
-            <h3>Voluptatem voluptatum alias</h3>
-            <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+            <h3>Tersebar di 4 Kota Besar di Indonesia</h3>
+            <p>Dengan jaringan distribusi yang tersebar di 4 kota besar di Indonesia, Raja Kurma mampu menghadirkan proses pengiriman yang lebih cepat, efisien dan terkontrol</p>
             </div>
         </div><!-- End Card Item -->
 
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
             <img src="{{ asset('landing/assets/img/more-service-3.jpg') }}" class="img-fluid" alt="">
-            <h3>Fugit cupiditate alias nobis.</h3>
-            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+            <h3>Berkualitas Tinggi dan Terjaga</h3>
+            <p>Setiap Kurma melalui proses seleksi ketat, penyimpanan higienis dan pengawasan kualitas yang konsisten</p>
             </div>
         </div><!-- End Card Item -->
 
@@ -198,8 +153,112 @@
 
 </section><!-- /More Services Section -->
 
+<!-- Produk Section -->
+<section id="produk" class="portfolio section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Produk Kami</h2>
+        <p>Berbagai pilihan kurma berkualitas untuk Anda</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="filter-active">Semua</li>
+                <li data-filter=".filter-app">Ajwa</li>
+                <li data-filter=".filter-product">Safawi</li>
+                <li data-filter=".filter-branding">Ruthob Libya</li>
+                <li data-filter=".filter-books">Sukari</li>
+            </ul><!-- End Portfolio Filters -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                    <div class="portfolio-content h-100">
+                        <img src="{{asset('landing/assets/img/portfolio/app-1.jpg')}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Ajwa</h4>
+                            <p>Detail Ajwa</p>
+                            <a href="{{asset('landing/assets/img/portfolio/app-1.jpg')}}" title="Ajwa" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                            <a href="https://linktr.ee/rajakurmaindo" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                    <div class="portfolio-content h-100">
+                        <img src="{{asset('landing/assets/img/portfolio/product-1.jpg')}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Safawi</h4>
+                            <p>Detail Safawi</p>
+                            <a href="{{asset('landing/assets/img/portfolio/product-1.jpg')}}" title="Safawi" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                            <a href="https://linktr.ee/rajakurmaindo" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                    <div class="portfolio-content h-100">
+                        <img src="{{asset('landing/assets/img/portfolio/branding-1.jpg')}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Ruthob Libya</h4>
+                            <p>Detail Ruthob Libya</p>
+                            <a href="{{asset('landing/assets/img/portfolio/branding-1.jpg')}}" title="Ruthob Libya" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                            <a href="https://linktr.ee/rajakurmaindo" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                    <div class="portfolio-content h-100">
+                        <img src="{{asset('landing/assets/img/portfolio/books-1.jpg')}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Sukari</h4>
+                            <p>Detail Sukari</p>
+                            <a href="{{asset('landing/assets/img/portfolio/books-1.jpg')}}" title="Sukari" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                            <a href="https://linktr.ee/rajakurmaindo" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                    <div class="portfolio-content h-100">
+                        <img src="{{asset('landing/assets/img/portfolio/app-2.jpg')}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Ajwa 2</h4>
+                            <p>Detail Ajwa</p>
+                            <a href="{{asset('landing/assets/img/portfolio/app-2.jpg')}}" title="Ajwa" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                            <a href="https://linktr.ee/rajakurmaindo" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                    <div class="portfolio-content h-100">
+                        <img src="{{asset('landing/assets/img/portfolio/product-2.jpg')}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Safawi 2</h4>
+                            <p>Detail Safawi</p>
+                            <a href="{{asset('landing/assets/img/portfolio/product-2.jpg')}}" title="Safawi" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                            <a href="https://linktr.ee/rajakurmaindo" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Portfolio Item -->
+
+            </div><!-- End Portfolio Container -->
+
+        </div>
+
+    </div>
+
+</section>
+<!-- /Produk Section -->
+
 <!-- Berita Section -->
-<section id="portfolio" class="portfolio section">
+<!-- <section id="berita" class="portfolio section">
     <div class="container section-title" data-aos="fade-up">
         <h2>Berita & Informasi</h2>
         <p>Update terbaru seputar produk dan kesehatan</p>
@@ -231,98 +290,7 @@
             <a href="{{ route('berita') }}" class="btn btn-primary">Lihat Semua Berita</a>
         </div>
     </div>
-</section>
-
-<!-- Team Section -->
-<section id="team" class="team section">
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
-
-    <div class="container">
-
-        <div class="row gy-4">
-
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="member">
-                <img src="{{ asset('landing/assets/img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                <div class="member-info">
-                    <div class="member-info-content">
-                    <h4>Walter White</h4>
-                    <span>Chief Executive Officer</span>
-                    <div class="social">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="member">
-                <img src="{{ asset('landing/assets/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                <div class="member-info">
-                    <div class="member-info-content">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
-                    <div class="social">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="member">
-                <img src="{{ asset('landing/assets/img/team/team-3.jpg') }}" class="img-fluid" alt="">
-                <div class="member-info">
-                    <div class="member-info-content">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
-                    <div class="social">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="member">
-                <img src="{{ asset('landing/assets/img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                <div class="member-info">
-                    <div class="member-info-content">
-                    <h4>Amanda Jepson</h4>
-                    <span>Accountant</span>
-                    <div class="social">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div><!-- End Team Member -->
-
-        </div>
-
-    </div>
-
-</section><!-- /Team Section -->
+</section> -->
 
 <!-- Faq Section -->
 <section id="faq" class="faq section light-background">
@@ -333,10 +301,7 @@
 
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="content px-xl-5">
-                <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                </p>
+                    <h3><span><strong>Berkomitmen</strong> untuk menjaga </span><strong>Kualitas Terbaik</strong></h3>
                 </div>
             </div>
 
@@ -344,45 +309,28 @@
 
                 <div class="faq-container">
                     <div class="faq-item faq-active">
-                        <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+                        <h3><span class="num">1.</span> <span>Dipilih dengan Teliti untuk menciptakan Kualitas Rasa Terbaik</span></h3>
                         <div class="faq-content">
-                        <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                            <p>Setiap butir kurma Raja Kurma melalui proses seleksi yang ketat, dimulai dari pemilihan kebun terbaik hingga pemanenan pada tingkat kematangan yang tepat. Hanya kurma dengan tekstur sempurna, rasa manis alami yang seimbang, dan kualitas visual terbaik yang kami pilih.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
 
                     <div class="faq-item">
-                        <h3><span class="num">2.</span> <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span></h3>
+                        <h3><span class="num">2.</span> <span>Dikemas dengan aman</span></h3>
                         <div class="faq-content">
-                        <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                            <p>Setiap produk Raja Kurma dikemas menggunakan standar pengemasan yang higienis dan aman untuk menjaga kesegaran, rasa, serta kualitas kurma hingga sampai ke tangan konsumen.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
 
                     <div class="faq-item">
-                        <h3><span class="num">3.</span> <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span></h3>
+                        <h3><span class="num">3.</span> <span>Dikirim dan disimpan dengan Tempat dan Suhu yang Steril</span></h3>
                         <div class="faq-content">
-                        <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                            <p>Raja Kurma memastikan setiap produk disimpan dan dikirim dalam lingkungan yang bersih, steril, dan terkontrol suhunya. Proses ini dilakukan untuk menjaga kesegaran, kualitas rasa, serta keamanan produk dari awal penyimpanan hingga sampai ke tangan konsumen.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
-
-                    <div class="faq-item">
-                        <h3><span class="num">4.</span> <span>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span></h3>
-                        <div class="faq-content">
-                        <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                        </div>
-                        <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
-
-                    <div class="faq-item">
-                        <h3><span class="num">5.</span> <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span></h3>
-                        <div class="faq-content">
-                        <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
-                        </div>
-                        <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
-
                 </div>
 
             </div>
@@ -400,70 +348,51 @@
     </div>
     
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-            <div class="col-lg-6">
-                <div class="row gy-4">
+        <div class="row gy-2">
+            <div class="col-lg-12">
+                <div class="row gy-2">
                     <div class="col-md-6">
-                        <div class="info-item" data-aos="fade" data-aos-delay="200">
-                            <i class="bi bi-geo-alt"></i>
-                            <h3>Alamat</h3>
-                            <p>Jl. Contoh No. 123</p>
-                            <p>Jakarta, Indonesia</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="info-item" data-aos="fade" data-aos-delay="300">
-                            <i class="bi bi-telephone"></i>
-                            <h3>Telepon</h3>
-                            <p>+62 812 3456 7890</p>
-                            <p>+62 821 9876 5432</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="info-item" data-aos="fade" data-aos-delay="400">
-                            <i class="bi bi-envelope"></i>
-                            <h3>Email</h3>
-                            <p>info@rajakurmaindonesia.com</p>
-                            <p>order@rajakurmaindonesia.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="info-item" data-aos="fade" data-aos-delay="500">
-                            <i class="bi bi-clock"></i>
-                            <h3>Jam Operasional</h3>
-                            <p>Senin - Sabtu</p>
-                            <p>08:00 - 17:00 WIB</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body p-4">
-                        <h5 class="card-title">Kirim Pesan</h5>
-                        <form action="#" method="post" class="php-email-form">
-                            <div class="row gy-4">
-                                <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Nama Anda" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" class="form-control" name="email" placeholder="Email Anda" required>
-                                </div>
-                                <div class="col-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Subjek" required>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Pesan" required></textarea>
-                                </div>
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-                                </div>
+                        <a href="https://wa.me/6287878784706" target="_blank">
+                            <div class="info-item" data-aos="fade" data-aos-delay="200">
+                                <i class="bi bi-whatsapp"></i>
+                                <h3>Admin Jakarta</h3>
+                                <p>+62 878-7878-4706</p>
+                                <p>Jakarta, Indonesia</p>
                             </div>
-                        </form>
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <a href="https://wa.me/6281910633437" target="_blank">
+                            <div class="info-item" data-aos="fade" data-aos-delay="300">
+                                <i class="bi bi-whatsapp"></i>
+                                <h3>Admin Medan</h3>
+                                <p>+62 819-1063-3437</p>
+                                <p>Medan, Indonesia</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <a href="https://wa.me/6281901010179" target="_blank">
+                            <div class="info-item" data-aos="fade" data-aos-delay="400">
+                                <i class="bi bi-whatsapp"></i>
+                                <h3>Admin Surabaya</h3>
+                                <p>+62 819-0101-0179</p>
+                                <p>Surabaya, Indonesia</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <a href="https://wa.me/62818701015" target="_blank">
+                            <div class="info-item" data-aos="fade" data-aos-delay="500">
+                                <i class="bi bi-whatsapp"></i>
+                                <h3>Admin Makassar</h3>
+                                <p>+62 818-701-015</p>
+                                <p>Makassar, Indonesia</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
