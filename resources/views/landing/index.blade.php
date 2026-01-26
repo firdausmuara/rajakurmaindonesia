@@ -345,7 +345,7 @@
 <section id="contact" class="contact section">
     <div class="container section-title" data-aos="fade-up">
         <h2>Kontak</h2>
-        <p>Hubungi kami untuk informasi lebih lanjut</p>
+        <p>Hubungi kami untuk informasi stok dan harga terbaik</p>
     </div>
     
     <div class="container" data-aos="fade-up" data-aos-delay="100">
