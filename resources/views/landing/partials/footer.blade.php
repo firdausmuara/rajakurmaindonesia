@@ -7,8 +7,8 @@
                 </a>
                 <p>Importir Kurma berkualitas tinggi dan terbesar di Indonesia. </p>
                 <div class="social-links d-flex mt-4">
-                    <!-- <a href="#"><i class="bi bi-twitter-x"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a> -->
+                    <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
+                    <a href="https://www.facebook.com/share/14XxupbqugZ/?mibextid=wwXIfr"><i class="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/rajakurma_indonesia/" target="_blank"><i class="bi bi-instagram"></i></a>
                     <a href="https://linktr.ee/rajakurmaindo" target="_blank"><i class="bi bi-link"></i></a>
                 </div>
@@ -30,18 +30,18 @@
                     <!-- <li><a href="{{ route('produk') }}?kategori=Kurma Premium">Kurma Premium</a></li>
                     <li><a href="{{ route('produk') }}?kategori=Kurma Regular">Kurma Regular</a></li>
                     <li><a href="{{ route('produk') }}?kategori=Paket Hemat">Paket Hemat</a></li> -->
-                    <li><a href="#">Kurma Premium</a></li>
-                    <li><a href="#">Kurma Regular</a></li>
-                    <li><a href="#">Paket Hemat</a></li>
+                    <li><a href="#">Kurma Sukari</a></li>
+                    <li><a href="#">Kurma Ruthob Libya</a></li>
+                    <li><a href="#">Kurma Ajwa</a></li>
                 </ul>
             </div>
             
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Hubungi Kami</h4>
-                <p>Jl. Contoh No. 123</p>
+                <a href="https://maps.app.goo.gl/Mv1V1DeJg6YhhVUg8"><p>Jl. Jatinegara Timur No.84 Lantai 3, RT.3/RW.3, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310</p></a>
                 <p>Jakarta, Indonesia</p>
                 <p class="mt-4"><strong>Phone:</strong> <span>+62 878 7878 4706</span></p>
-                <p><strong>Email:</strong> <span>rajakurmaindo@gmail.com</span></p>
+                <p><strong>Email:</strong> <span>rajakurmaindonesia01@gmail.com</span></p>
             </div>
         </div>
     </div>
