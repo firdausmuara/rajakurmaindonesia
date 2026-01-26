@@ -9,8 +9,8 @@
         <div class="carousel-item active">
             <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
             <div class="carousel-container">
-                <h2>Selamat Datang di Raja Kurma Indonesia</h2>
-                <p>Menyediakan kurma berkualitas tinggi dari berbagai negara. Kepercayaan dan kualitas adalah prioritas kami.</p>
+                <h2>Raja Kurma Indonesia</h2>
+                <p>Importir Kurma Terbesar di Indonesia</p>
                 <a href="{{ route('home') }}#produk" class="btn-get-started">Lihat Produk</a>
             </div>
         </div>
@@ -19,7 +19,7 @@
             <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-2.jpg') }}" alt="">
             <div class="carousel-container">
                 <h2>Kurma Premium Pilihan</h2>
-                <p>Koleksi lengkap kurma Ajwa, Medjool, Sukari, dan berbagai jenis kurma berkualitas lainnya.</p>
+                <p>Diseleksi langsung untuk rasa dan kualitas terbaik</p>
                 <a href="https://linktr.ee/rajakurmaindo" target="_blank" class="btn-get-started">Belanja Sekarang</a>
             </div>
         </div>
@@ -38,7 +38,7 @@
 <section id="about" class="about section">
     <div class="container section-title" data-aos="fade-up">
         <h2>Tentang Kami</h2>
-        <p>Raja Kurma Indonesia - Pilihan Terpercaya untuk Kurma Berkualitas</p>
+        <p>Raja Kurma Indonesia - Importir Kurma Terbesar di Indonesia</p>
     </div>
     
     <div class="container">
@@ -49,12 +49,14 @@
             
             <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
                 <h3>Komitmen Kami</h3>
-                <p class="fst-italic">Raja Kurma Indonesia berkomitmen menyediakan kurma berkualitas tinggi dengan harga terjangkau untuk keluarga Indonesia.</p>
+                <p class="fst-italic">Kami berkomitmen menghadirkan kurma premium dengan standar mutu tinggi melalui proses seleksi yang ketat. Setiap produk dipilih untuk memastikan rasa autentik, kualitas unggul, dan kesegaran optimal sebelum sampai ke tangan pelanggan</p>
+                <p class="fst-italic">Dengan sistem distribusi yang efisien, kami menghadirkan kurma berkualitas tinggi dengan harga retail terbaik tanpa mengurangi standar mutu yang kami jaga.</p>
                 <ul>
                     <li><i class="bi bi-check-circle"></i> <span>Kurma impor langsung dari negara asal</span></li>
-                    <li><i class="bi bi-check-circle"></i> <span>Kualitas terjamin dengan sertifikasi internasional</span></li>
-                    <li><i class="bi bi-check-circle"></i> <span>Harga terjangkau dengan berbagai pilihan paket</span></li>
-                    <li><i class="bi bi-check-circle"></i> <span>Pengiriman cepat ke seluruh Indonesia</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Kualitas premium dan terjamin standar internasional</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Harga retail terbaik</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Stok lengkap dengan berbagai varian kurma</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Pengiriman cepat ke seluruh wilayah Indonesia</span></li>
                 </ul>
                 <a href="https://linktr.ee/rajakurmaindo" target="_blank" class="read-more"><span>Belanja Sekarang</span><i class="bi bi-arrow-right"></i></a>
             </div>
@@ -100,8 +102,8 @@
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
         <div class="col-xl-10">
             <div class="text-center">
-            <h3>Temukan Produk Kurma Terbaik</h3>
-            <p>Kami menyediakan berbagai pilihan kurma berkualitas tinggi untuk Anda.</p>
+            <h3>Temukan Kurma Premium Berkualitas</h3>
+            <p>Kurma premium dengan standar mutu tinggi melalui proses seleksi yang ketat</p>
             <a class="cta-btn" href="#produk">Lihat Produk</a>
             </div>
         </div>
@@ -126,8 +128,8 @@
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
             <img src="{{ asset('landing/assets/img/more-service-1.jpg') }}" class="img-fluid" alt="">
-            <h3>Stok Kurma Premium dan varian yang melimpah</h3>
-            <p>Raja Kurma menyediakan berbagai jenis kurma premium dengan ketersediaan stok yang stabil dan berkelanjutan</p>
+            <h3>Stok lengkap dengan berbagai varian kurma</h3>
+            <p>Raja Kurma menghadirkan pilihan kurma premium dengan ketersediaan stok yang terjamin.</p>
             </div>
         </div><!-- End Card Item -->
 
@@ -168,10 +170,9 @@
 
             <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                 <li data-filter="*" class="filter-active">Semua</li>
-                <li data-filter=".filter-app">Ajwa</li>
-                <li data-filter=".filter-product">Safawi</li>
-                <li data-filter=".filter-branding">Ruthob Libya</li>
                 <li data-filter=".filter-books">Sukari</li>
+                <li data-filter=".filter-branding">Ruthob Libya</li>
+                <li data-filter=".filter-app">Ajwa</li>
             </ul><!-- End Portfolio Filters -->
 
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -309,9 +310,9 @@
 
                 <div class="faq-container">
                     <div class="faq-item faq-active">
-                        <h3><span class="num">1.</span> <span>Dipilih dengan Teliti untuk menciptakan Kualitas Rasa Terbaik</span></h3>
+                        <h3><span class="num">1.</span> <span>Kurma dipilih dengan Standar Kualitas Tinggi</span></h3>
                         <div class="faq-content">
-                            <p>Setiap butir kurma Raja Kurma melalui proses seleksi yang ketat, dimulai dari pemilihan kebun terbaik hingga pemanenan pada tingkat kematangan yang tepat. Hanya kurma dengan tekstur sempurna, rasa manis alami yang seimbang, dan kualitas visual terbaik yang kami pilih.</p>
+                            <p>Setiap kurma dipilih melalui proses seleksi ketat, mulai dari sumber terbaik hingga tingkat kematangan ideal. Kami memastikan hanya kurma dengan rasa manis alami seimbang, tekstur unggul, dan kualitas visual terbaik yang kami hadirkan.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
