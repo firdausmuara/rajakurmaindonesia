@@ -38,7 +38,7 @@
             
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Hubungi Kami</h4>
-                <a href="https://maps.app.goo.gl/Mv1V1DeJg6YhhVUg8"><p>Jl. Jatinegara Timur No.84 Lantai 3, RT.3/RW.3, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310</p></a>
+                <a href="https://maps.app.goo.gl/Mv1V1DeJg6YhhVUg8" style="color: white;"><p>Jl. Jatinegara Timur No.84 Lantai 3, RT.3/RW.3, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310</p></a>
                 <p>Jakarta, Indonesia</p>
                 <p class="mt-4"><strong>Phone:</strong> <span>+62 878 7878 4706</span></p>
                 <p><strong>Email:</strong> <span>rajakurmaindonesia01@gmail.com</span></p>
