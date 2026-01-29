@@ -7,7 +7,7 @@
 <section id="hero" class="hero section dark-background">
     <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-item active">
-            <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-1.png') }}" alt="">
+            <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-11.png') }}" alt="">
             <div class="carousel-container">
                 <h2>Raja Kurma Indonesia</h2>
                 <p>Importir Kurma Terbesar di Indonesia</p>
@@ -16,7 +16,7 @@
         </div>
         
         <div class="carousel-item">
-            <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-2.png') }}" alt="">
+            <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-22.png') }}" alt="">
             <div class="carousel-container">
                 <h2>Kurma Premium Pilihan</h2>
                 <p>Diseleksi langsung untuk rasa dan kualitas terbaik</p>
