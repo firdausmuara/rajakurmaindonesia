@@ -10,7 +10,7 @@
                     <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
                     <a href="https://www.facebook.com/share/14XxupbqugZ/?mibextid=wwXIfr"><i class="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/rajakurma_indonesia/" target="_blank"><i class="bi bi-instagram"></i></a>
-                    <a href="https://linktr.ee/rajakurmaindo" target="_blank"><i class="bi bi-link"></i></a>
+                    <a href="https://linktr.ee/rajakurma_indonesia" target="_blank"><i class="bi bi-link"></i></a>
                 </div>
             </div>
             
