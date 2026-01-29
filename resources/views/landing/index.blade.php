@@ -7,7 +7,7 @@
 <section id="hero" class="hero section dark-background">
     <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-item active">
-            <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
+            <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-1.png') }}" alt="">
             <div class="carousel-container">
                 <h2>Raja Kurma Indonesia</h2>
                 <p>Importir Kurma Terbesar di Indonesia</p>
@@ -16,11 +16,11 @@
         </div>
         
         <div class="carousel-item">
-            <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-2.jpg') }}" alt="">
+            <img src="{{ asset('landing/assets/img/hero-carousel/hero-carousel-2.png') }}" alt="">
             <div class="carousel-container">
                 <h2>Kurma Premium Pilihan</h2>
                 <p>Diseleksi langsung untuk rasa dan kualitas terbaik</p>
-                <a href="https://linktr.ee/rajakurmaindo" target="_blank" class="btn-get-started">Belanja Sekarang</a>
+                <a href="https://linktr.ee/rajakurma_indonesia" target="_blank" class="btn-get-started">Belanja Sekarang</a>
             </div>
         </div>
         
@@ -58,7 +58,7 @@
                     <li><i class="bi bi-check-circle"></i> <span>Stok lengkap dengan berbagai varian kurma</span></li>
                     <li><i class="bi bi-check-circle"></i> <span>Pengiriman cepat ke seluruh wilayah Indonesia</span></li>
                 </ul>
-                <a href="https://linktr.ee/rajakurmaindo" target="_blank" class="read-more"><span>Belanja Sekarang</span><i class="bi bi-arrow-right"></i></a>
+                <a href="https://linktr.ee/rajakurma_indonesia" target="_blank" class="read-more"><span>Belanja Sekarang</span><i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </div>
